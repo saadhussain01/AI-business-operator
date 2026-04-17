@@ -1,0 +1,74 @@
+[
+  {
+    "content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "full_content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "timestamp": "2026-04-16T15:34:06.525571",
+    "task": "analyze the competitors of tesla in ev market\n",
+    "type": "research",
+    "task_type": "market_research"
+  },
+  {
+    "content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "full_content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "timestamp": "2026-04-16T15:34:06.542423",
+    "task": "analyze the competitors of tesla in ev market\n",
+    "type": "analysis",
+    "task_type": "market_research"
+  },
+  {
+    "content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "full_content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "timestamp": "2026-04-16T15:34:06.577049",
+    "task": "analyze the competitors of tesla in ev market\n",
+    "type": "report",
+    "task_type": "market_research"
+  },
+  {
+    "content": "[Memory Context]\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.525571\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n---\n\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.542423\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n---\n\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.577049\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n[Fresh Research]\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to",
+    "full_content": "[Memory Context]\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.525571\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n---\n\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.542423\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n---\n\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.577049\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n[Fresh Research]\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "timestamp": "2026-04-16T15:34:59.384777",
+    "task": "analyze the competitors of tesla in ev market\n",
+    "type": "research",
+    "task_type": "market_research"
+  },
+  {
+    "content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "full_content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "timestamp": "2026-04-16T15:34:59.413788",
+    "task": "analyze the competitors of tesla in ev market\n",
+    "type": "analysis",
+    "task_type": "market_research"
+  },
+  {
+    "content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "full_content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "timestamp": "2026-04-16T15:34:59.437528",
+    "task": "analyze the competitors of tesla in ev market\n",
+    "type": "report",
+    "task_type": "market_research"
+  },
+  {
+    "content": "[Memory Context]\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:59.384777\n[Memory Context]\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.525571\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n---\n\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.542423\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n---\n\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.577049\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of availabl\n\n---\n\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.525571\n[Gemini API error: 404 models/gemini-1.5-flash is ",
+    "full_content": "[Memory Context]\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:59.384777\n[Memory Context]\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.525571\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n---\n\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.542423\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n---\n\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.577049\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of availabl\n\n---\n\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.525571\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n---\n\n[Past Research - Score: 0.35]\nDate: 2026-04-16T15:34:06.542423\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]\n\n[Fresh Research]\n[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "timestamp": "2026-04-16T15:35:42.995664",
+    "task": "analyze the competitors of tesla in ev market\n",
+    "type": "research",
+    "task_type": "market_research"
+  },
+  {
+    "content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "full_content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "timestamp": "2026-04-16T15:35:43.019797",
+    "task": "analyze the competitors of tesla in ev market\n",
+    "type": "analysis",
+    "task_type": "market_research"
+  },
+  {
+    "content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "full_content": "[Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.]",
+    "timestamp": "2026-04-16T15:35:43.047935",
+    "task": "analyze the competitors of tesla in ev market\n",
+    "type": "report",
+    "task_type": "market_research"
+  }
+]

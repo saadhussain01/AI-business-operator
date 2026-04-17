@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: ai-operator-api
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - LLM_PROVIDER=${LLM_PROVIDER:-openai}
+    volumes:
+      - ./reports:/app/reports
+      - ./memory/vector_store:/app/memory/vector_store
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000
+
+  ui:
+    build: .
+    container_name: ai-operator-ui
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - LLM_PROVIDER=${LLM_PROVIDER:-openai}
+    volumes:
+      - ./reports:/app/reports
+      - ./memory/vector_store:/app/memory/vector_store
+    command: streamlit run ui/streamlit_app.py --server.port 8501 --server.address 0.0.0.0
+    depends_on:
+      - api
