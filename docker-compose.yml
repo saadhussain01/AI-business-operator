@@ -1,32 +1,14 @@
 version: "3.9"
-
 services:
-  api:
+  app:
     build: .
-    container_name: ai-operator-api
+    container_name: ai-business-operator
     ports:
       - "8000:8000"
     environment:
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
-      - LLM_PROVIDER=${LLM_PROVIDER:-openai}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_MODEL=${GEMINI_MODEL:-gemini-2.0-flash}
+      - LLM_PROVIDER=${LLM_PROVIDER:-gemini}
     volumes:
       - ./reports:/app/reports
       - ./memory/vector_store:/app/memory/vector_store
-    command: uvicorn api.main:app --host 0.0.0.0 --port 8000
-
-  ui:
-    build: .
-    container_name: ai-operator-ui
-    ports:
-      - "8501:8501"
-    environment:
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
-      - LLM_PROVIDER=${LLM_PROVIDER:-openai}
-    volumes:
-      - ./reports:/app/reports
-      - ./memory/vector_store:/app/memory/vector_store
-    command: streamlit run ui/streamlit_app.py --server.port 8501 --server.address 0.0.0.0
-    depends_on:
-      - api

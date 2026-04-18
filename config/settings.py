@@ -18,12 +18,13 @@ class Settings:
     DEBUG: bool = os.getenv("DEBUG", "false").lower() == "true"
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
 
-    # LLM Provider — default is now Gemini
+    # LLM Provider — default is Gemini (free)
     LLM_PROVIDER: str = os.getenv("LLM_PROVIDER", "gemini")
 
-    # Google Gemini (free tier)
+    # Google Gemini — uses new google-genai SDK
+    # Model names for the new SDK use format: "gemini-2.0-flash" (no version suffix)
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
-    GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+    GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
 
     # Anthropic Claude (optional fallback)
     ANTHROPIC_API_KEY: str = os.getenv("ANTHROPIC_API_KEY", "")
